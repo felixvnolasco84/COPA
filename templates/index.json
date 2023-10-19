@@ -41,11 +41,11 @@
         "@media screen and (max-width: 749px) {.banner__media {border-radius: 0 0 13px 13px; } .banner:not(.banner--stacked) {margin: 0 !important; } .banner--mobile-bottom:not(.banner--stacked) .banner__content {display: none; }}",
         ".desktop-banner {width: 100%; padding-bottom: 27%; position: relative;}",
         ".desktop-banner img {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}",
-        "@media screen and (min-width: 750px) {.banner--medium:not(.banner--adapt) {width: 100%; padding-bottom: 27%; position: relative; min-height: auto; }}"
+        "@media screen and (min-width: 750px) {.banner--medium:not(.banner--adapt) {width: 100%; position: relative; padding-bottom: 27%; min-height: auto; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/BannerWeb_Dots_2000x650_17af1064-b387-4192-83e3-60278687838c.gif",
-        "image_mobile": "shopify:\/\/shop_images\/quebrada_mobile.jpg",
+        "image": "shopify://shop_images/BannerWeb_Dots_2000x650_17af1064-b387-4192-83e3-60278687838c.gif",
+        "image_mobile": "shopify://shop_images/quebrada_mobile.jpg",
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -61,13 +61,13 @@
         "template--16993020313908__171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9-1685811043793ab7f2-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cf1792b575854b47b10e53b1873f11fd.mp4",
-            "video_image": "shopify:\/\/shop_images\/Fono_Web_Copa.jpg",
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/cf1792b575854b47b10e53b1873f11fd.mp4",
+            "video_image": "shopify://shop_images/Fono_Web_Copa.jpg",
             "title": "",
-            "text": "<p>VOLVAMOS AL INICIO<\/p>",
+            "text": "<p>VOLVAMOS AL INICIO</p>",
             "color_text": "#ffffff",
             "button_label": "COMPRAR",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "color_btn_bg": "rgba(0,0,0,0)",
             "color_btn_text": "#ffffff"
           }
@@ -77,13 +77,11 @@
         "template--16993020313908__171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9-1685811043793ab7f2-0"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "43d5aef6-90ff-4330-ad82-d171a509bb7a": {
       "type": "product-custom",
-      "settings": {
-      }
+      "settings": {}
     },
     "c4270ec9-993e-475e-8fd8-64f5ca0a085a": {
       "type": "featured-collection",
@@ -144,11 +142,11 @@
         "@media screen and (max-width: 767px) {.custom-banner {position: relative; } .banner__content__mobile {position: absolute; bottom: 0; left: 0; } .banner--large.banner--mobile-bottom:not(.banner--adapt) .banner__media {height: 70rem; }}",
         ".desktop-banner {width: 100%; padding-bottom: 56.25%; position: relative;}",
         ".desktop-banner img {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}",
-        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {width: 100%; padding-bottom: 56.25%; position: relative; min-height: auto; }}"
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {width: 100%; position: relative; padding-bottom: 56.25%; min-height: auto; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gif-BANNER-DESKTOP.gif",
-        "image_mobile": "shopify:\/\/shop_images\/Gif-BANNER-MOBILE.gif",
+        "image": "shopify://shop_images/Gif-BANNER-DESKTOP.gif",
+        "image_mobile": "shopify://shop_images/Gif-BANNER-MOBILE.gif",
         "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": true,
@@ -161,10 +159,10 @@
     "34558585-48a7-4ffb-ba8f-94d9795ca873": {
       "type": "details-product",
       "settings": {
-        "image_setting": "shopify:\/\/shop_images\/Marbella_02.png",
-        "image_item_1": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_2x_a5485534-bab1-4c5a-bfe0-1a631edf260d.png",
-        "image_item_2": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_copia_2x_6045d334-6f38-4eb5-a548-caeea2414537.png",
-        "image_item_3": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_copia_2_2x_9fa56cec-6bca-43db-8bfb-9dfbde943cc7.png",
+        "image_setting": "shopify://shop_images/Marbella_02.png",
+        "image_item_1": "shopify://shop_images/Mesa_de_trabajo_63_2x_a5485534-bab1-4c5a-bfe0-1a631edf260d.png",
+        "image_item_2": "shopify://shop_images/Mesa_de_trabajo_63_copia_2x_6045d334-6f38-4eb5-a548-caeea2414537.png",
+        "image_item_3": "shopify://shop_images/Mesa_de_trabajo_63_copia_2_2x_9fa56cec-6bca-43db-8bfb-9dfbde943cc7.png",
         "text_title_1": "Antishock System",
         "text_description_1": "Reduce las vibraciones hasta 50%. Balance intermedio, obteniendo mayor potencia en la parte superior de la pala y mejor control en la parte inferior.",
         "text_title_2": "Wave Spin Tech",
@@ -211,11 +209,9 @@
         "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-buttons-1"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Copa_BannerWeb.gif",
+        "image": "shopify://shop_images/Copa_BannerWeb.gif",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -231,11 +227,9 @@
     "abc67e80-1d22-4fdd-a357-f8da0cd5aa04": {
       "type": "nuestra-marca",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "title_image": "shopify:\/\/shop_images\/COPA_Naranja_3.2_930x930_crop_bottom_233f476f-d713-4854-b612-9d3837dc6277.jpg",
+        "title_image": "shopify://shop_images/COPA_Naranja_3.2_930x930_crop_bottom_233f476f-d713-4854-b612-9d3837dc6277.jpg",
         "description": "Copa, nace para conmemorar el legado que nos dejó Don Enrique Corcuera y tiene como intención llevarte a través del tiempo y hacerte parte del movimiento que dio inicio a nuestro deporte en 1969.",
         "description_bottom": "Nuestra marca está enfocada en desarrollar productos que llevan una fusión entre la época de oro y las necesidades del atleta moderno y contemporáneo.",
         "description_bottom_2": "Creada con la clase y estilo que nos caracterizan a los orígenes de este deporte."
@@ -268,7 +262,7 @@
         ".banner__text span {line-height: 35px; font-size: 30px; color: white;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Enrique-Corcuera_baa166f1-2985-4c90-979a-692297228ec2.jpg",
+        "image": "shopify://shop_images/Enrique-Corcuera_baa166f1-2985-4c90-979a-692297228ec2.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
@@ -283,13 +277,59 @@
     "5b5165f0-f0ea-444b-9ff7-4de897bdc35a": {
       "type": "video-text-back",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
+    },
+    "30aea7eb-fddf-4cbd-bbc6-7e92a34ef170": {
+      "type": "testimonials",
+      "blocks": {
+        "24a611b0-ce7e-4276-b778-16853782666a": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Toño De la Vega",
+            "testimonial_role": "Campeón Amateur",
+            "testimonial_description": "Me pareció una raqueta muy bien balanceada...",
+            "testimonial_image": "shopify://shop_images/BannerCopa03.png"
+          }
+        },
+        "a00a6ff6-22c9-4f4c-a14c-34e81df94793": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Pao Abdo",
+            "testimonial_role": "Jugador Amateur",
+            "testimonial_description": "Yo las tendría de colección, pero es imposible no jugar pádel con ellas..",
+            "testimonial_image": "shopify://shop_images/BannerCopa01.png"
+          }
+        },
+        "bdfc6f62-af9d-4703-851b-a9c5016c39bf": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Paco Fernández",
+            "testimonial_role": "Ex número 1 México",
+            "testimonial_description": "Muy ligera, tienes mucho toque, no tiene demasiada potencia pero trae mucho equilibrio, se la presté a todos con los que jugué y a todos les gustó mucho.",
+            "testimonial_image": "shopify://shop_images/COPA_Gris_4_930x930_crop_bottom_0fc21bd3-b778-4825-97a8-f6849ba49efc.jpg"
+          }
+        },
+        "230b5124-c043-4569-bcc7-bbe36052b7c2": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial_name": "Juanii Padel",
+            "testimonial_role": "Jugador Profesional",
+            "testimonial_description": "Lo que más me gusta es que tiene el punto dulce grande, puedo golpear en cualquier parte de la cara de la pala y el tacto es el mismo y me brinda mucho control y manejabilidad.",
+            "testimonial_image": "shopify://shop_images/Mesadetrabajo103_2x_0387b641-e57a-4de4-976d-449c4fe9f385.png"
+          }
+        }
+      },
+      "block_order": [
+        "24a611b0-ce7e-4276-b778-16853782666a",
+        "a00a6ff6-22c9-4f4c-a14c-34e81df94793",
+        "bdfc6f62-af9d-4703-851b-a9c5016c39bf",
+        "230b5124-c043-4569-bcc7-bbe36052b7c2"
+      ],
+      "settings": {}
     },
     "401fb00e-e846-45e6-b9d6-8ab9a181b426": {
       "type": "image-text-right-2",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
@@ -303,6 +343,7 @@
     "abc67e80-1d22-4fdd-a357-f8da0cd5aa04",
     "0f60c5c3-4652-4cd2-9d13-fc6c93c28538",
     "5b5165f0-f0ea-444b-9ff7-4de897bdc35a",
+    "30aea7eb-fddf-4cbd-bbc6-7e92a34ef170",
     "401fb00e-e846-45e6-b9d6-8ab9a181b426"
   ]
 }
