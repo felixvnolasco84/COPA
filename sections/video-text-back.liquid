@@ -1,0 +1,169 @@
+<div id="shopify-section-[id]" class="shopify-section">
+  <div class="section-video">
+    <div class="box-text">
+      <h1>VOLVAMOS</br> AL INICIO,</h1>
+      <p>a seguir innovando, a la esencia del pádel,</br> al inicio del juego, a inspirar nuevas</br> generaciones de
+        jugadores</br> redescubriendo el pasado y construyendo</br> el futuro del padel.</p>
+      <a href="/pages/nosotros">LEER MÁS</a>
+    </div>
+    <div class="box-video">
+      <video class="video-js" src="https://cdn.shopify.com/videos/c/o/v/cc4286198d694cf88165217f152f07b2.mp4"
+        autoplay="true" muted="true" loop="true" alt="Copa"></video>
+    </div>
+  </div>
+</div>
+
+<style>
+  @media screen and (max-width: 767px) {
+
+    .section-video {
+      display: flex;
+      flex-direction: column-reverse;
+      height: auto !important;
+      margin: 32px 6px !important;
+    }
+
+    .section-video .box-video {
+      width: 100% !important;
+      border-radius: 13px 13px 0 0 !important;
+      max-height: 367px !important;
+    }
+
+    .section-video .box-text {
+      padding: 30px 12px !important;
+      border-radius: 0 0 13px 13px !important;
+      width: 100% !important;
+    }
+
+    .section-video .box-text h1 {
+      font-size: 33px !important;
+    }
+
+    .section-video .box-text p {
+      font-size: 14px !important;
+    }
+
+    .section-video .box-text a {
+      font-size: 18px !important;
+    }
+
+
+  }
+
+
+  
+  @media only screen and (max-width: 1600px) {
+    .section-video .box-text h1 {
+      font-size: 38px !important;
+    }
+
+    .section-video .box-text p {
+      font-size: 21px !important;
+    }
+
+    .section-video .box-text a {
+      font-size: 21px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 992px) {
+    .section-video .box-text h1 {
+      font-size: 34px !important;
+    }
+
+    .section-video .box-text p {
+      font-size: 18px !important;
+    }
+
+    .section-video .box-text a {
+      font-size: 18px !important;
+    }
+
+  }
+
+  .section-video {
+    font-family: "ABCfina" !important;
+    height: 600px;
+    margin: 50px 25px;
+    display: flex;
+  }
+
+  .section-video .box-text {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+  }
+
+  .section-video .box-video {
+    overflow: hidden;
+    border-radius: 0 13px 13px 0;
+    width: 50%;
+  }
+
+  .section-video .box-text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+    font-weight: 100;
+    color: white;
+    font-family: 'ABCfina' !important;
+  }
+
+  .section-video .box-text {
+    display: flex;
+    gap: 20px;
+    background-color: #FFB1B9;
+    justify-content: end;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 13px 0 0 13px;
+    padding: 35px;
+    font-size: 15px;
+    color: white;
+  }
+
+  .section-video .box-text a {
+    cursor: pointer;
+    padding: 5px 40px;
+    border-radius: 13px;
+    border: 1px solid white;
+    transition: 0.5s;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .section-video .box-text a:hover {
+    background-color: #D0CFCD !important;
+    transition: 0.5s;
+    border: 1px solid transparent;
+  }
+
+  .section-video .box-text p {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+  }
+
+  .section-video .box-video video {
+    height: 100%;
+  }
+</style>
+
+
+{% schema %}
+{
+"name": "video Text right",
+"tag": "section",
+"class": "section",
+
+"presets": [
+{
+"name": "Video Right",
+"category": "Custom content"
+
+}
+]
+}
+{% endschema %}

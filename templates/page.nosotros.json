@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "d763f054-c214-4f59-9e31-d5e634eb10f7": {
+      "type": "video-back",
+      "blocks": {
+        "template--19759176941876__d763f054-c214-4f59-9e31-d5e634eb10f7-video-1": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/31753e02a76b4ae98af643d3b8fd6580.mp4",
+            "video_image": "shopify:\/\/shop_images\/Fono_Web_Copa.jpg",
+            "title": "",
+            "text": "<p>LA MARCA DE PÁDEL CON MÁS HISTORIA.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "COMPRAR",
+            "button_link": "shopify:\/\/collections\/all",
+            "color_btn_bg": "rgba(0,0,0,0)",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--19759176941876__d763f054-c214-4f59-9e31-d5e634eb10f7-video-1"
+      ],
+      "settings": {
+      }
+    },
+    "4d6c466e-babd-4c09-aff4-3108850279f8": {
+      "type": "image-nosotros",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "4572230d-f1c0-4c5c-99df-40d98d3c12ae": {
+      "type": "nuestra-marca",
+      "settings": {
+        "title_image": "shopify:\/\/shop_images\/copa_nuestra_marca.png",
+        "description": "Copa, nace para conmemorar el legado que nos dejó Don Enrique Corcuera y tiene como intención llevarte a través del tiempo y hacerte parte del movimiento que dio inicio a nuestro deporte en 1969.",
+        "description_bottom": "Nuestra marca está enfocada en desarrollar productos que llevan una fusión entre la época de oro y las necesidades del atleta moderno y contemporáneo.",
+        "description_bottom_2": "Creada con la clase y estilo que nos caracterizan a los orígenes de este deporte."
+      }
+    },
+    "12cc2d78-ad3a-45e1-98d9-ba2269ebb4c4": {
+      "type": "image-text-right-2",
+      "settings": {
+      }
+    },
+    "a4ac999a-31fa-4dff-8ead-74c5e9df19c5": {
+      "type": "volvamos-inicio",
+      "settings": {
+        "title_image": "shopify:\/\/shop_images\/historia-del-padel-2.webp",
+        "title": "VOLVAMOS AL INICIO",
+        "description": "\"A seguir innovando, a la esencial del padel, al inicio del juego, a inspirar nuevas generaciones de jugadores reedescubriendo el pasado y construyendo el futuro del padel”"
+      }
+    },
+    "5eb29d55-3dbd-4831-90d0-7fb774d808dd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gorras",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "d763f054-c214-4f59-9e31-d5e634eb10f7",
+    "4d6c466e-babd-4c09-aff4-3108850279f8",
+    "4572230d-f1c0-4c5c-99df-40d98d3c12ae",
+    "12cc2d78-ad3a-45e1-98d9-ba2269ebb4c4",
+    "a4ac999a-31fa-4dff-8ead-74c5e9df19c5",
+    "5eb29d55-3dbd-4831-90d0-7fb774d808dd"
+  ]
+}

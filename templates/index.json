@@ -1,0 +1,308 @@
+{
+  "sections": {
+    "de34200b-b52b-4998-b236-a40ac57cac03": {
+      "type": "image-bannercopa-responsive",
+      "blocks": {
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-heading-1",
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-text-1",
+        "template--16993020313908__de34200b-b52b-4998-b236-a40ac57cac03-buttons-1"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner__media {border-radius: 0 0 13px 13px; } .banner:not(.banner--stacked) {margin: 0 !important; } .banner--mobile-bottom:not(.banner--stacked) .banner__content {display: none; }}",
+        ".desktop-banner {width: 100%; padding-bottom: 27%; position: relative;}",
+        ".desktop-banner img {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}",
+        "@media screen and (min-width: 750px) {.banner--medium:not(.banner--adapt) {width: 100%; padding-bottom: 27%; position: relative; min-height: auto; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BannerWeb_Dots_2000x650_17af1064-b387-4192-83e3-60278687838c.gif",
+        "image_mobile": "shopify:\/\/shop_images\/quebrada_mobile.jpg",
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9": {
+      "type": "video-back",
+      "blocks": {
+        "template--16993020313908__171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9-1685811043793ab7f2-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cf1792b575854b47b10e53b1873f11fd.mp4",
+            "video_image": "shopify:\/\/shop_images\/Fono_Web_Copa.jpg",
+            "title": "",
+            "text": "<p>VOLVAMOS AL INICIO<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "COMPRAR",
+            "button_link": "shopify:\/\/collections\/all",
+            "color_btn_bg": "rgba(0,0,0,0)",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--16993020313908__171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9-1685811043793ab7f2-0"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "43d5aef6-90ff-4330-ad82-d171a509bb7a": {
+      "type": "product-custom",
+      "settings": {
+      }
+    },
+    "c4270ec9-993e-475e-8fd8-64f5ca0a085a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "gorras",
+        "products_to_show": 12,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06": {
+      "type": "image-bannercopa-responsive",
+      "blocks": {
+        "template--16993020313908__51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner title",
+            "heading_size": "h1"
+          }
+        },
+        "template--16993020313908__51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16993020313908__51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06-heading-1",
+        "template--16993020313908__51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06-buttons-1"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.custom-banner {position: relative; } .banner__content__mobile {position: absolute; bottom: 0; left: 0; } .banner--large.banner--mobile-bottom:not(.banner--adapt) .banner__media {height: 70rem; }}",
+        ".desktop-banner {width: 100%; padding-bottom: 56.25%; position: relative;}",
+        ".desktop-banner img {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}",
+        "@media screen and (min-width: 750px) {.banner--large:not(.banner--adapt) {width: 100%; padding-bottom: 56.25%; position: relative; min-height: auto; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gif-BANNER-DESKTOP.gif",
+        "image_mobile": "shopify:\/\/shop_images\/Gif-BANNER-MOBILE.gif",
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "34558585-48a7-4ffb-ba8f-94d9795ca873": {
+      "type": "details-product",
+      "settings": {
+        "image_setting": "shopify:\/\/shop_images\/Marbella_02.png",
+        "image_item_1": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_2x_a5485534-bab1-4c5a-bfe0-1a631edf260d.png",
+        "image_item_2": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_copia_2x_6045d334-6f38-4eb5-a548-caeea2414537.png",
+        "image_item_3": "shopify:\/\/shop_images\/Mesa_de_trabajo_63_copia_2_2x_9fa56cec-6bca-43db-8bfb-9dfbde943cc7.png",
+        "text_title_1": "Antishock System",
+        "text_description_1": "Reduce las vibraciones hasta 50%. Balance intermedio, obteniendo mayor potencia en la parte superior de la pala y mejor control en la parte inferior.",
+        "text_title_2": "Wave Spin Tech",
+        "text_description_2": "Nuestro diseño innovador y tecnología en materiales mejoran el control al golpe, maximizando el agarre en la salida de la pelota, obteniendo así mejor efecto en la rodada y rebote.",
+        "text_title_3": "Carbon Beam Tech",
+        "text_description_3": "El marco de carbono 3K y fibra de vidrio al 80% sobre la superficie de golpeo, proporcionan una absorción de impacto superior. Esto resulta en un mayor control y potencia de ataque, mejorando la velocidad y efecto de los golpes."
+      }
+    },
+    "932244f0-fd0a-4b24-8c16-8fc4a827ea5a": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-heading-1",
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-text-1",
+        "template--16993020313908__932244f0-fd0a-4b24-8c16-8fc4a827ea5a-buttons-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Copa_BannerWeb.gif",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "abc67e80-1d22-4fdd-a357-f8da0cd5aa04": {
+      "type": "nuestra-marca",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title_image": "shopify:\/\/shop_images\/COPA_Naranja_3.2_930x930_crop_bottom_233f476f-d713-4854-b612-9d3837dc6277.jpg",
+        "description": "Copa, nace para conmemorar el legado que nos dejó Don Enrique Corcuera y tiene como intención llevarte a través del tiempo y hacerte parte del movimiento que dio inicio a nuestro deporte en 1969.",
+        "description_bottom": "Nuestra marca está enfocada en desarrollar productos que llevan una fusión entre la época de oro y las necesidades del atleta moderno y contemporáneo.",
+        "description_bottom_2": "Creada con la clase y estilo que nos caracterizan a los orígenes de este deporte."
+      }
+    },
+    "0f60c5c3-4652-4cd2-9d13-fc6c93c28538": {
+      "type": "image-bannercopa",
+      "blocks": {
+        "a5a38218-8551-40e8-845f-0cfe6708e1af": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "template--16993020313908__0f60c5c3-4652-4cd2-9d13-fc6c93c28538-168617406645e225f3-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "caption-with-letter-spacing"
+          }
+        }
+      },
+      "block_order": [
+        "a5a38218-8551-40e8-845f-0cfe6708e1af",
+        "template--16993020313908__0f60c5c3-4652-4cd2-9d13-fc6c93c28538-168617406645e225f3-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__text span {line-height: 35px; font-size: 30px; color: white;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Enrique-Corcuera_baa166f1-2985-4c90-979a-692297228ec2.jpg",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "5b5165f0-f0ea-444b-9ff7-4de897bdc35a": {
+      "type": "video-text-back",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "401fb00e-e846-45e6-b9d6-8ab9a181b426": {
+      "type": "image-text-right-2",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "de34200b-b52b-4998-b236-a40ac57cac03",
+    "171d7d0e-081e-4d0a-99ee-af5dbdf4ccd9",
+    "43d5aef6-90ff-4330-ad82-d171a509bb7a",
+    "c4270ec9-993e-475e-8fd8-64f5ca0a085a",
+    "51b9518e-eaa0-4aa3-8f9a-7b1b84f67b06",
+    "34558585-48a7-4ffb-ba8f-94d9795ca873",
+    "932244f0-fd0a-4b24-8c16-8fc4a827ea5a",
+    "abc67e80-1d22-4fdd-a357-f8da0cd5aa04",
+    "0f60c5c3-4652-4cd2-9d13-fc6c93c28538",
+    "5b5165f0-f0ea-444b-9ff7-4de897bdc35a",
+    "401fb00e-e846-45e6-b9d6-8ab9a181b426"
+  ]
+}

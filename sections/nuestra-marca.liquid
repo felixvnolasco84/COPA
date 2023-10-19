@@ -1,0 +1,64 @@
+<link
+  rel="stylesheet"
+  href="{{ 'nuestra-marca.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
+
+<div class="border">
+  <div class="section-img-slogan">
+    <div class="box-img">
+      <img
+        class="box-image-border"
+        style="border-radius:  15px 0 0 15px ;"
+        src="{{ section.settings.title_image | img_url: 'master' }}"
+        width="100%"
+        height="100%"
+        alt="{{ section.settings.title | escape }}">
+    </div>
+    <div class="box-text align-left-mobile align-left">
+      <p class="boxt-text-volvamos-description">{{ section.settings.description }}</p>
+      <p class="boxt-text-volvamos-description">{{ section.settings.description_bottom }}</p>
+      <p class="boxt-text-volvamos-description">{{ section.settings.description_bottom_2 }}</p>
+    </div>
+  </div>
+
+</div>
+
+
+<style></style>
+
+{% schema %}
+  {
+    "name": "Nuestra Marca",
+    "tag": "section",
+    "class": "section",
+    "presets": [
+      {
+        "name": "Nuestra Marca",
+        "category": "Custom content"
+      }
+    ],
+    "settings": [
+      {
+        "type": "image_picker",
+        "label": "Title Image",
+        "id": "title_image"
+      }, {
+        "type": "textarea",
+        "label": "Description",
+        "id": "description",
+        "default": "\"A seguir innovando, a la esencial del padel, al inicio del juego, a inspirar nuevas generaciones de jugadores reedescubriendo el pasado y construyendo el futuro del padel”"
+      }, {
+        "type": "textarea",
+        "label": "Description Bottom",
+        "id": "description_bottom",
+        "default": "Copa, nace para conmemorar el legado que nos dejó Don Enrique Corcuera y tiene como intención llevarte a través del tiempo y hacerte parte del movimiento que dio inicio a nuestro deporte en 1969."
+      }, {
+        "type": "textarea",
+        "label": "Description Bottom 2",
+        "id": "description_bottom_2",
+        "default": "Creada con la clase y estilo que nos caracterizan a los orígenes de este deporte."
+      }
+    ]
+  }
+{% endschema %}
